@@ -21,4 +21,10 @@ export const SOCIALMEDIAS: ISocialMedia[] = [
         icon: <Icons.InstagramLogo color="#FF69B4" />,
         link: "https://www.instagram.com/kaua_librelato",
     },
+    {
+        color: "#1DA1F2",
+        text: "X / Twitter",
+        icon: <Icons.XLogo color="#1DA1F2" />,
+        link: "https://x.com/_1KLC",
+    },
 ];
