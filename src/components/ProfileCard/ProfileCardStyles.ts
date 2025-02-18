@@ -1,7 +1,13 @@
 import { Image } from "expo-image";
 import styled, { DefaultTheme } from "styled-components/native";
 
-export const Container = styled.View`
+export const Container = styled.View.attrs(({ theme }: { theme: DefaultTheme }) => ({
+    elevation: 5,
+    shadowColor: theme.colors.textPrimary,
+    shadowOffset: { width: 0, height: 10 },
+    shadowOpacity: 1,
+    shadowRadius: 4,
+}))`
     width: 100%;
     height: 144px;
     border-radius: 24px;
