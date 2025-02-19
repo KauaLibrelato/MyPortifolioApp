@@ -2,6 +2,144 @@
   "language": "Idioma",
   "home": {
     "greeting": "Olá, sou o Kauã!",
-    "description": "Desenvolvedor Mobile"
+    "description": "Desenvolvedor Mobile",
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "contacts": "Contato",
+    "skills": "Habilidades"
+  },
+  "aboutMe": {
+    "title": "Sobre mim",
+    "description": "Olá, sou o Kauã Librelato, tenho 19 anos e sou desenvolvedor mobile. Especializado em React Native, tenho experiência no desenvolvimento de aplicativos escaláveis e de alto desempenho para setores como logística, saúde, segurança, comércio e indústria automotiva. Atualmente, atuo no desenvolvimento do NDDMove na NDD e já passei pela Useall Software e Ada Software House, onde liderei iniciativas mobile focadas em eficiência e escalabilidade. Com formação técnica em Mecatrônica e graduação em Engenharia de Software, desenvolvi uma mentalidade estruturada para resolver problemas complexos. Minhas principais habilidades incluem React Native, TypeScript, JavaScript, gerenciamento de estado, consumo de APIs REST, Offline First e publicação de apps. Sou movido por desafios, aprendizado contínuo e otimização de processos para entregar produtos de alta qualidade.",
+    "education": {
+      "title": "Educação",
+      "courses": [
+        {
+          "name": "Técnico em Mecatrônica",
+          "institution": "IFSC - Instituto Federal de Santa Catarina",
+          "level": "Técnico",
+          "initDate": "01/02/2019",
+          "endDate": "01/02/2022",
+          "location": "Criciúma - SC, Brasil"
+        },
+        {
+          "name": "Engenharia de Software",
+          "institution": "Unisatc - Centro Universitário Satc",
+          "level": "Graduação",
+          "initDate": "01/02/2022",
+          "endDate": "31/12/2025",
+          "location": "Criciúma - SC, Brasil"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Idiomas",
+      "languages": [
+        {
+          "name": "Portugués",
+          "level": "Nativo"
+        },
+        {
+          "name": "Inglés",
+          "level": "Básico"
+        }
+      ]
+    },
+    "employmentHistory": {
+      "title": "Experiências",
+      "jobs": [
+        {
+          "company": "NDD Tech Brasil",
+          "position": "Desenvolvedor Mobile",
+          "initDate": "01/07/2024",
+          "endDate": "",
+          "location": "Lages - SC, Brasil",
+          "modality": "Remoto"
+        },
+        {
+          "company": "Useall Software",
+          "position": "Desenvolvedor Mobile",
+          "initDate": "01/09/2023",
+          "endDate": "01/07/2024",
+          "location": "Criciúma - SC, Brasil",
+          "modality": "Remoto"
+        },
+        {
+          "company": "Ada Software House",
+          "position": "Desenvolvedor Mobile",
+          "initDate": "01/07/2022",
+          "endDate": "01/09/2023",
+          "location": "Criciúma - SC, Brasil",
+          "modality": "Híbrido"
+        },
+        {
+          "company": "Ada Software House",
+          "position": "Estagiário em Desenvolvimento",
+          "initDate": "01/05/2022",
+          "endDate": "01/07/2022",
+          "location": "Criciúma - SC, Brasil",
+          "modality": "Híbrido"
+        }
+      ]
+    },
+    "curriculum": "Baixar currículo"
+  },
+  "contacts": {
+    "title": "Contato",
+    "description": "Entre em contato comigo para discutir oportunidades de colaboração, projetos ou apenas para dizer olá!",
+    "form": {
+      "formTitle": "Entre em contato",
+      "name": "Nome",
+      "email": "E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar"
+    },
+    "meansOfContacts": {
+      "phone": "Telefone",
+      "email": "E-mail",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "twitter": "X / Twitter"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "softSkills": [
+      {
+        "name": "Comunicação"
+      },
+      {
+        "name": "Trabalho em equipe"
+      },
+      {
+        "name": "Adaptabilidade"
+      },
+      {
+        "name": "Resolução de problemas"
+      },
+      {
+        "name": "Aprendizado Contínuo"
+      },
+      {
+        "name": "Organização"
+      },
+      {
+        "name": "Liderança"
+      },
+      {
+        "name": "Metodologias Ágeis"
+      },
+      {
+        "name": "Pensamento Analítico"
+      },
+      {
+        "name": "Colaboração"
+      },
+      {
+        "name": "Planejamento"
+      }
+    ]
   }
 }

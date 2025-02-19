@@ -2,6 +2,144 @@
   "language": "Idioma",
   "home": {
     "greeting": "Hola, soy Kauã!",
-    "description": "Desarrollador Móvil"
+    "description": "Desarrollador Móvil",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contacts": "Contacto",
+    "skills": "Habilidades"
+  },
+  "aboutMe": {
+    "title": "Sobre mí",
+    "description": "Hola, soy Kauã Librelato, tengo 19 años y soy desarrollador móvil. Especializado en React Native, cuento con experiencia en la creación de aplicaciones escalables y de alto rendimiento para sectores como logística, salud, seguridad, comercio e industria automotriz. Actualmente, trabajo en el desarrollo de NDDMove en NDD y anteriormente colaboré en Useall Software y Ada Software House, liderando iniciativas móviles centradas en eficiencia y escalabilidad. Con formación técnica en Mecatrónica y estudios en Ingeniería de Software, adquirí una mentalidad estructurada para resolver problemas complejos. Mis principales habilidades incluyen React Native, TypeScript, JavaScript, gestión de estado, consumo de APIs REST, Offline First y publicación de aplicaciones. Me motiva enfrentar desafíos, el aprendizaje continuo y la optimización de procesos para ofrecer productos de alta calidad.",
+    "education": {
+      "title": "Educación",
+      "courses": [
+        {
+          "name": "Técnico en Mecatrónica",
+          "institution": "IFSC - Instituto Federal de Santa Catarina",
+          "level": "Técnico",
+          "initDate": "01/02/2019",
+          "endDate": "01/02/2022",
+          "location": "Criciúma - SC, Brasil"
+        },
+        {
+          "name": "Ingeniería de Software",
+          "institution": "Unisatc - Centro Universitario Satc",
+          "level": "Superior",
+          "initDate": "01/02/2022",
+          "endDate": "31/12/2025",
+          "location": "Criciúma - SC, Brasil"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Idiomas",
+      "languages": [
+        {
+          "name": "Portugués",
+          "level": "Nativo"
+        },
+        {
+          "name": "Inglés",
+          "level": "Básico"
+        }
+      ]
+    },
+    "employmentHistory": {
+      "title": "Experiencias",
+      "jobs": [
+        {
+          "company": "NDD Tech Brasil",
+          "position": "Desarrollador Móvil",
+          "initDate": "01/07/2024",
+          "endDate": "",
+          "location": "Lages - SC, Brasil",
+          "modality": "Remoto"
+        },
+        {
+          "company": "Useall Software",
+          "position": "Desarrollador Móvil",
+          "initDate": "01/09/2023",
+          "endDate": "01/07/2024",
+          "location": "Criciúma - SC, Brasil",
+          "modality": "Remoto"
+        },
+        {
+          "company": "Ada Software House",
+          "position": "Desarrollador Móvil",
+          "initDate": "01/07/2022",
+          "endDate": "01/09/2023",
+          "location": "Criciúma - SC, Brasil",
+          "modality": "Híbrido"
+        },
+        {
+          "company": "Ada Software House",
+          "position": "Pasante de Desarrollo",
+          "initDate": "01/05/2022",
+          "endDate": "01/07/2022",
+          "location": "Criciúma - SC, Brasil",
+          "modality": "Híbrido"
+        }
+      ]
+    },
+    "curriculum": "Descargar currículum"
+  },
+  "contacts": {
+    "title": "Contacto",
+    "description": "¡Contáctame para discutir oportunidades de colaboración, proyectos o simplemente para saludar!",
+    "form": {
+      "formTitle": "Ponte en contacto",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "subject": "Sujeto",
+      "message": "Mensaje",
+      "send": "Para enviar"
+    },
+    "meansOfContacts": {
+      "phone": "Teléfono",
+      "email": "Correo electrónico",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "twitter": "X / Twitter"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "skills": [
+      {
+        "name": "Comunicación"
+      },
+      {
+        "name": "Trabajo en equipo"
+      },
+      {
+        "name": "Adaptabilidad"
+      },
+      {
+        "name": "Resolución de problemas"
+      },
+      {
+        "name": "Aprendizaje continuo"
+      },
+      {
+        "name": "Organización"
+      },
+      {
+        "name": "Liderazgo"
+      },
+      {
+        "name": "Metodologías ágiles"
+      },
+      {
+        "name": "Pensamiento analítico"
+      },
+      {
+        "name": "Colaboración"
+      },
+      {
+        "name": "Planificación"
+      }
+    ]
   }
 }

@@ -4,8 +4,8 @@ import styled, { DefaultTheme } from "styled-components/native";
 export const Container = styled.View.attrs(({ theme }: { theme: DefaultTheme }) => ({
     elevation: 5,
     shadowColor: theme.colors.textPrimary,
-    shadowOffset: { width: 0, height: 10 },
-    shadowOpacity: 1,
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.2,
     shadowRadius: 4,
 }))`
     width: 100%;

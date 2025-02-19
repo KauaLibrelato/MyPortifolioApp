@@ -1,4 +1,5 @@
 export * from "./Header/Header";
+export * from "./HomeCard/HomeCard";
 export * from "./ProfileCard/ProfileCard";
 export * from "./ScreenContent/ScreenContent";
 export * from "./SocialMedia/SocialMedia";

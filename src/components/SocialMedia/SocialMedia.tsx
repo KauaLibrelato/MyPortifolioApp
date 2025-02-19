@@ -15,6 +15,7 @@ export function SocialMedia() {
                         key={item.text}
                         color={item.color}
                         onPress={() => Linking.openURL(item.link)}
+                        lastItem={item.text === SOCIALMEDIAS[SOCIALMEDIAS.length - 1].text}
                     >
                         {item.icon}
                         <S.MediaText color={item.color}>{item.text}</S.MediaText>

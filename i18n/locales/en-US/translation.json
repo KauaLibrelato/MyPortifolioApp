@@ -2,6 +2,143 @@
   "language": "Language",
   "home": {
     "greeting": "Hi, I'm Kauã!",
-    "description": "Mobile Developer"
+    "description": "Mobile Developer",
+    "about": "About me",
+    "projects": "Projects",
+    "contacts": "Contact",
+    "skills": "Skills"
+  },
+  "aboutMe": {
+    "title": "About me",
+    "description": "Hello, I’m Kauã Librelato, I’m 19 years old, and I’m a mobile developer. Specialized in React Native, I have experience building scalable and high-performance applications for industries like logistics, healthcare, security, commerce, and automotive. Currently, I work on NDDMove at NDD and have previously contributed to Useall Software and Ada Software House, leading mobile initiatives focused on efficiency and scalability. With a technical background in Mechatronics and a degree in Software Engineering, I developed a structured approach to solving complex problems. My core skills include React Native, TypeScript, JavaScript, state management, REST API consumption, Offline First, and app publishing. I thrive on challenges, continuous learning, and optimizing processes to deliver high-quality products.",
+    "education": {
+      "title": "Education",
+      "courses": [
+        {
+          "name": "Mechatronics Technician",
+          "institution": "IFSC - Federal Institute of Santa Catarina",
+          "level": "Technician",
+          "initDate": "02/01/2019",
+          "endDate": "02/01/2022",
+          "location": "Criciúma - SC, Brazil"
+        },
+        {
+          "name": "Software Engineering",
+          "institution": "Unisatc - Satc University Center",
+          "level": "Bachelor",
+          "initDate": "02/01/2022",
+          "endDate": "31/12/2025",
+          "location": "Criciúma - SC, Brazil"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "languages": [
+        {
+          "name": "Portuguese",
+          "level": "Native"
+        },
+        {
+          "name": "Inglés",
+          "level": "Basic"
+        }
+      ]
+    },
+    "employmentHistory": {
+      "title": "Experiences",
+      "jobs": [
+        {
+          "company": "NDD Tech Brasil",
+          "position": "Mobile Developer",
+          "initDate": "07/01/2024",
+          "endDate": "",
+          "location": "Lages - SC, Brazil",
+          "modality": "Remote"
+        },
+        {
+          "company": "Useall Software",
+          "position": "Mobile Developer",
+          "initDate": "01/09/2023",
+          "endDate": "01/07/2024",
+          "location": "Criciúma - SC, Brazil",
+          "modality": "Remote"
+        },
+        {
+          "company": "Ada Software House",
+          "position": "Mobile Developer",
+          "initDate": "01/07/2022",
+          "endDate": "01/09/2023",
+          "location": "Criciúma - SC, Brazil",
+          "modality": "Remote"
+        },
+        {
+          "company": "Ada Software House",
+          "position": "Mobile Developer",
+          "initDate": "01/05/2022",
+          "endDate": "01/07/2023",
+          "location": "Criciúma - SC, Brazil",
+          "modality": "Hybrid"
+        }
+      ]
+    },
+    "curriculum": "Download resume"
+  },
+  "contacts": {
+    "title": "Contact",
+    "description": "Contact me to discuss collaboration opportunities, projects or just to say hello!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
+    },
+    "meansOfContacts": {
+      "phone": "Phone number",
+      "email": "E-mail",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "twitter": "X / Twitter"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "softSkills": [
+      {
+        "name": "Communication"
+      },
+      {
+        "name": "Teamwork"
+      },
+      {
+        "name": "Adaptability"
+      },
+      {
+        "name": "Problem-solving"
+      },
+      {
+        "name": "Continuous learning"
+      },
+      {
+        "name": "Organization"
+      },
+      {
+        "name": "Leadership"
+      },
+      {
+        "name": "Agile methodologies"
+      },
+      {
+        "name": "Analytical thinking"
+      },
+      {
+        "name": "Collaboration"
+      },
+      {
+        "name": "Planning"
+      }
+    ]
   }
 }
