@@ -22,11 +22,5 @@ export default function App() {
 const StatusBarWithTheme = () => {
     const { colors, statusBarStyle } = useTheme();
 
-    return (
-        <StatusBar
-            style={statusBarStyle || "light"}
-            backgroundColor={colors.background}
-            translucent
-        />
-    );
+    return <StatusBar style={statusBarStyle || "light"} backgroundColor={colors.background} />;
 };

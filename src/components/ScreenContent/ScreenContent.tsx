@@ -3,10 +3,22 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import * as S from "./ScreenContentStyles";
 
-export function ScreenContent({ children }: { children: ReactNode }) {
+export function ScreenContent({
+    children,
+    scrollView = false,
+}: {
+    children: ReactNode;
+    scrollView?: boolean;
+}) {
+    const isScrollView = () => {
+        if (scrollView) {
+            return <S.ScrollView>{children}</S.ScrollView>;
+        }
+        return <S.Container>{children}</S.Container>;
+    };
     return (
         <SafeAreaView style={{ flex: 1 }} edges={[]}>
-            <S.Container>{children}</S.Container>
+            {isScrollView()}
         </SafeAreaView>
     );
 }

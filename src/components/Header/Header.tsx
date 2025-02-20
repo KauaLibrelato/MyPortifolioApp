@@ -10,7 +10,7 @@ import { ThemeType } from "../../utils/enums";
 import * as S from "./HeaderStyles";
 import { LANGUAGES } from "./utils/constants";
 
-export function Header({ route }: StackHeaderProps) {
+export function Header({ route, navigation }: StackHeaderProps) {
     const { theme, toggleTheme } = useContext(ThemeContext);
     const { colors } = useTheme();
     const { i18n } = useTranslation();
@@ -23,7 +23,11 @@ export function Header({ route }: StackHeaderProps) {
     };
 
     return (
-        <S.Container isHome={isHome}>
+        <S.Container>
+            <S.BackButton isHome={isHome} onPress={() => navigation.goBack()}>
+                <Icons.CaretLeft size={24} color={colors.textPrimary} />
+            </S.BackButton>
+
             <S.ThemeButton onPress={toggleTheme} isHome={isHome}>
                 {theme === ThemeType.light ? (
                     <Icons.Sun size={24} color={colors.textPrimary} weight="fill" />

@@ -15,19 +15,19 @@
       "title": "Educación",
       "courses": [
         {
-          "name": "Técnico en Mecatrónica",
-          "institution": "IFSC - Instituto Federal de Santa Catarina",
-          "level": "Técnico",
-          "initDate": "01/02/2019",
-          "endDate": "01/02/2022",
-          "location": "Criciúma - SC, Brasil"
-        },
-        {
           "name": "Ingeniería de Software",
           "institution": "Unisatc - Centro Universitario Satc",
           "level": "Superior",
-          "initDate": "01/02/2022",
-          "endDate": "31/12/2025",
+          "initDate": "2022-02-02T00:58:35.580Z",
+          "endDate": "2025-12-31T00:58:35.580Z",
+          "location": "Criciúma - SC, Brasil"
+        },
+        {
+          "name": "Técnico en Mecatrónica",
+          "institution": "IFSC - Instituto Federal de Santa Catarina",
+          "level": "Técnico",
+          "initDate": "2019-02-02T00:58:35.580Z",
+          "endDate": "2022-02-02T00:58:35.580Z",
           "location": "Criciúma - SC, Brasil"
         }
       ]
@@ -51,7 +51,7 @@
         {
           "company": "NDD Tech Brasil",
           "position": "Desarrollador Móvil",
-          "initDate": "01/07/2024",
+          "initDate": "2024-07-02T00:58:35.580Z",
           "endDate": "",
           "location": "Lages - SC, Brasil",
           "modality": "Remoto"
@@ -59,30 +59,31 @@
         {
           "company": "Useall Software",
           "position": "Desarrollador Móvil",
-          "initDate": "01/09/2023",
-          "endDate": "01/07/2024",
+          "initDate": "2023-09-02T00:58:35.580Z",
+          "endDate": "2024-07-02T00:58:35.580Z",
           "location": "Criciúma - SC, Brasil",
           "modality": "Remoto"
         },
         {
           "company": "Ada Software House",
           "position": "Desarrollador Móvil",
-          "initDate": "01/07/2022",
-          "endDate": "01/09/2023",
+          "initDate": "2022-07-02T00:58:35.580Z",
+          "endDate": "2023-09-02T00:58:35.580Z",
           "location": "Criciúma - SC, Brasil",
           "modality": "Híbrido"
         },
         {
           "company": "Ada Software House",
           "position": "Pasante de Desarrollo",
-          "initDate": "01/05/2022",
-          "endDate": "01/07/2022",
+          "initDate": "2022-05-02T00:58:35.580Z",
+          "endDate": "2023-07-02T00:58:35.580Z",
           "location": "Criciúma - SC, Brasil",
           "modality": "Híbrido"
         }
       ]
     },
-    "curriculum": "Descargar currículum"
+    "curriculum": "Descargar currículum",
+    "currently": "Actualmente"
   },
   "contacts": {
     "title": "Contacto",

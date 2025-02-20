@@ -3,23 +3,9 @@
 - Transição fluída entre temas
 - Statusbar no IOS não muda de cor
 - Types dos styles
-- Adicionar BackButton no Header quando não for a home
 - Adicionar Fontes
 
 **Fazer**
-
-- Testes Unit e E2E
-- Home
-
-    - Colocar os botões de ações(Sobre mim, Projetos, Skills, Contato)
-
-- Sobre mim
-
-    - Breve apresentação com uma fotinho
-    - Exportar CV(Baixar CV)
-    - Experiências
-    - Formações
-    - Idiomas
 
 - Projetos
 
@@ -37,13 +23,23 @@
     - Soft com textos
 
 - Contatos
+
     - Título(Contatos)
     - Email
     - Github
     - Linkedin
     - Instagram
     - Twitter
+
+    //Pensar para o futuro V
+
     - Enviar email para mim
         - Email
         - Assunto
         - Mensagem
+
+- Ajustar link do currículo
+
+- Criar Componente de botão e input
+
+- Testes Unit e E2E

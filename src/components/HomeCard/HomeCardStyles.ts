@@ -1,3 +1,4 @@
+import { Platform } from "react-native";
 import styled from "styled-components/native";
 
 export const Container = styled.View`
@@ -11,20 +12,32 @@ export const Container = styled.View`
 export const CardContainer = styled.TouchableOpacity.attrs({
     activeOpacity: 0.7,
 })`
-    width: 177px;
-    height: 180px;
+    width: 168px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 24px;
+`;
+
+export const ImageWrapper = styled.View`
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
     overflow: hidden;
 `;
 
 export const ImageBackground = styled.ImageBackground.attrs({
     resizeMode: "cover",
-    blurRadius: 5,
+    blurRadius: Platform.OS === "ios" ? 3 : 10,
 })`
     width: 100%;
     height: 100%;
-    border-radius: 24px;
+    position: absolute;
+`;
 
-    filter: grayscale(100%);
+export const Overlay = styled.View`
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 `;
 
 export const Title = styled.Text`

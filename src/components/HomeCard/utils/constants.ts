@@ -5,6 +5,7 @@ export const HOMECARDINFOS: IHomeCard[] = [
         id: "1",
         title: "about",
         image: require("../../../assets/images/myPhoto2.png"),
+        screen: "AboutMe",
     },
     {
         id: "2",
