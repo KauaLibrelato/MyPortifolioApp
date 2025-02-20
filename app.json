@@ -37,6 +37,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.kaualibrelato.myportifolio"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "266be973-6505-41c1-8717-88deea96880b"
       }
     }
   }
