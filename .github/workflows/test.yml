@@ -1,0 +1,24 @@
+name: Run Unit Tests
+
+on:
+    workflow_call:
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: "📦 Checkout repository"
+              uses: actions/checkout@v4
+
+            - name: "🟢 Setup Node"
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "18.x"
+                  cache: "yarn"
+
+            - name: "📦 Install dependencies (Yarn)"
+              run: yarn install --frozen-lockfile
+
+            - name: "🧪 Run tests"
+              run: yarn test

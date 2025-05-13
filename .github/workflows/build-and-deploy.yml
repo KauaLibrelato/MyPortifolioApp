@@ -1,0 +1,37 @@
+name: Build and Deploy Android App
+
+on:
+    workflow_call:
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: "📦 Checkout repository"
+              uses: actions/checkout@v4
+
+            - name: "🟢 Setup Node"
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "18.x"
+                  cache: "yarn"
+
+            - name: "📦 Install dependencies (Yarn)"
+              run: yarn install --frozen-lockfile
+
+            - name: "🧰 Setup EAS CLI"
+              uses: expo/expo-github-action@v8
+              with:
+                  eas-version: latest
+                  token: ${{ secrets.EAS_EXPO_TOKEN }}
+
+            - name: "🔐 Decode google-services.json"
+              env:
+                  GOOGLE_SERVICES_64: ${{ secrets.EAS_GOOGLE_PLAY_API }}
+              run: |
+                  echo $GOOGLE_SERVICES_64 > google-services.json.64
+                  base64 -d google-services.json.64 > google-services.json
+
+            - name: "📦 Build and Submit to Google Play"
+              run: eas build -p android -e production --auto-submit --non-interactive --wait
