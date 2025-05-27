@@ -1,24 +1,18 @@
-name: Run Unit Tests
-
+name: Executar Testes Unitários
 on:
-    workflow_call:
-
+  workflow_call:
 jobs:
-    test:
-        runs-on: ubuntu-latest
-
-        steps:
-            - name: "📦 Checkout repository"
-              uses: actions/checkout@v4
-
-            - name: "🟢 Setup Node"
-              uses: actions/setup-node@v4
-              with:
-                  node-version: "18.x"
-                  cache: "yarn"
-
-            - name: "📦 Install dependencies (Yarn)"
-              run: yarn install --frozen-lockfile
-
-            - name: "🧪 Run tests"
-              run: yarn test
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📦 Clonar repositório"
+        uses: actions/checkout@v4
+      - name: "🟢 Configurar Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18.x"
+          cache: "yarn"
+      - name: "📥 Instalar dependências com Yarn"
+        run: yarn install --frozen-lockfile
+      - name: "🧪 Executar testes unitários"
+        run: yarn test
