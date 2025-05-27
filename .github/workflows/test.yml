@@ -7,12 +7,15 @@ jobs:
     steps:
       - name: "📦 Clonar repositório"
         uses: actions/checkout@v4
+        
       - name: "🟢 Configurar Node.js"
         uses: actions/setup-node@v4
         with:
           node-version: "18.x"
           cache: "yarn"
+          
       - name: "📥 Instalar dependências com Yarn"
         run: yarn install --frozen-lockfile
+        
       - name: "🧪 Executar testes unitários"
         run: yarn test
